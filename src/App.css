@@ -1,0 +1,76 @@
+*{
+  text-transform: capitalize;
+  /* background-color: rgb(218, 213, 213); */
+}
+.itemContainer{
+  /* border: 1px solid red; */
+  height: 350px;
+  width:300px;
+  padding:20px;
+  margin:30px;
+  background-color: whitesmoke;
+   box-shadow:  0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.imgContainer{
+  width: 100%;
+  height: 200px;
+}
+.imageFood{
+ width: 100%;
+  display: block;
+   height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.nameContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 17px;
+}
+.menuItems{
+  width: 800px;
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  /* padding: 0 200px; */
+
+
+}
+.desc{
+  padding: 0 12px;
+}
+.title{
+  /* border: 1px solid black; */
+  padding: 5px;
+  color: white;
+  background-color: rgb(46, 41, 41);
+  border-radius: 5px;
+}
+.price{
+   /* border: 1px solid black; */
+  padding: 5px;
+  color: white;
+  background-color: rgb(46, 41, 41);
+  border-radius: 5px;
+}
+.categorieSection{
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 20px;
+}
+.btn{
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  outline-width: 0;
+   cursor: pointer;
+   border: 1px solid black;
+   
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
